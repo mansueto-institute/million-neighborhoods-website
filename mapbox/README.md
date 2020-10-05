@@ -18,7 +18,7 @@
     ```
     MAPBOX_API_TOKEN=(<INSERT TOKEN HERE>)
     ```
- * Check parameter defaults in [kblock_tileset_api_upload.sh](https://github.com/mansueto-institute/prclz/blob/master/mapbox/api/kblock_tileset_api_upload.sh) and change as needed.
+ * Check parameter defaults in [kblock_tileset_api_upload.sh](https://github.com/mansueto-institute/million-neighborhoods-website/blob/master/mapbox/api/kblock_tileset_api_upload.sh) and change as needed.
     ```
     sed -e "s/::MAPBOX_API_TOKEN::/${MAPBOX_API_TOKEN}/g" < /project2/bettencourt/mnp/prclz/mapbox/api/kblock_tileset_api_upload.sh > /project2/bettencourt/mnp/prclz/mapbox/api/tileset_api_filled.sh
     ```
@@ -72,7 +72,7 @@
     ```
   
   #### Basics of Mapbox GL JS ####
-  * Here is the link to the [404.html, index.html, and index.js](https://github.com/mansueto-institute/prclz/tree/master/mapbox/build) that flow into the Mapbox visualization
+  * Here is the link to the [404.html, index.html, and index.js](https://github.com/mansueto-institute/million-neighborhoods-website/tree/master/mapbox/build) that flow into the Mapbox visualization
   * Follow Mapbox examples for how to add [popups](https://docs.mapbox.com/mapbox-gl-js/example/popup-on-click/), [playback](https://docs.mapbox.com/mapbox-gl-js/example/playback-locations/), [style layers](https://docs.mapbox.com/mapbox-gl-js/example/setstyle/), or [choropleths](https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/)
   
 ### Deploying App ###
@@ -117,7 +117,7 @@
     firebase deploy # pushes app to the domains that were linked to the hosting site
     firebase logout
     ```
-   * Make sure to add the [Firebase JS](https://github.com/mansueto-institute/prclz/blob/master/mapbox/build/index.html#L143) to the end of the HTML body and the [Google Analytics JS](https://github.com/mansueto-institute/prclz/blob/master/mapbox/build/index.html#L56) to the HTML head.
+   * Make sure to add the [Firebase JS](https://github.com/mansueto-institute/million-neighborhoods-website/blob/master/mapbox/build/index.html#L338) to the end of the HTML body and the [Google Analytics JS](https://github.com/mansueto-institute/million-neighborhoods-website/blob/master/mapbox/build/index.html#L159) to the HTML head.
     
 ### Data Sharing ###
   #### How to contruct country level shapefiles ####
